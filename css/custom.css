@@ -1,0 +1,245 @@
+
+body {
+  color: #797979;
+  background: #f1f2f7;
+  padding: 0px !important;
+  margin: 0px !important;
+  font-size: 13px;
+}
+ul li {
+  list-style: none;
+}
+
+a.logo {
+  font-size: 21px;
+  color: #fff;
+  float: left;
+  margin-top: 15px;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+.imagensibib{
+  width: 70px;
+  height: 45px; 
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 2px;
+
+}
+
+#container {
+	width: 100%;
+	height: 100%;
+}
+
+.topbar {
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	min-height: 60px;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.blue-bg {
+    background: #2980B9;
+    border-bottom: 1px solid #f1f2f7;
+}
+
+#sidebar {
+	width: 300px;
+	height: 100%;
+	position: absolute;
+	background: #3498db;
+
+}
+
+#main-content {
+	margin-left: 300px;
+}
+
+#wrapper {
+	padding: 10px 20px 0px;
+  margin-bottom: 50px;
+  overflow: scroll;
+  position: relative;
+}
+
+#tabla_horarios {
+  /*table-layout: fixed;*/
+}
+
+#tabla_horarios td {
+  width: 80px;
+  height: 40px;
+  min-width: 80px;
+  max-width: 80px;
+}
+
+#calendar-wrap {
+  margin-top: -55px;
+}
+
+.horario {
+  color: white;
+  text-align: center;
+  font-size: 10px;
+}
+
+.btn-reserva {
+  font-size: 11px;
+}
+
+.popover-content input{
+  line-height: 26px;
+}
+
+/*.modal-vertical-centered {
+  transform: translate(0, 50%) !important;
+  -ms-transform: translate(0, 50%) !important;
+  -webkit-transform: translate(0, 50%) !important;
+}
+*/
+
+#form-reserva input{
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-wrapper {
+  top: 0px;
+  left: 10px;
+  width: 280px;
+  position: relative;
+}
+
+.form-wrapper h4{
+  color: white;
+}
+
+td .plumon{
+  font-size: 10px;
+  color: black;
+}
+
+td .carrera {
+  font-size: 10px;
+  z-index: 10;
+}
+
+td .validar{
+  color: white;
+  position: relative;
+  z-index: 20;
+}
+
+td .observacion{
+  color: white;
+  position: relative;
+}
+
+td .eliminar{
+  color: white;
+  position: relative;
+}
+
+td .renovar{
+  color: white;
+  position: relative;
+}
+
+td .hora{
+  color: white;
+  position: relative;
+}
+
+td .devolver{
+  color: white;
+  position: relative;
+}
+
+td .salida{
+  color: white;
+  position: relative;
+}
+
+td .salida_salon{
+  color: white;
+  position: relative;
+}
+
+td .eliminar_salon{
+  color: white;
+  position: relative;
+}
+
+td .observacion_salon{
+  color: white;
+  position: relative;
+}
+
+.navbar {
+  border-radius: 0px;
+}
+
+.navbar-default{
+  background-color: #2980B9;
+  border: none;
+}
+
+.navbar-default .navbar-nav>li>a{
+  color: white;
+}
+
+.navbar-default .navbar-brand{
+  color: white;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+  background-color: #2980B9;
+}
+
+#tabla_modulos_wrapper{
+  margin-top: 0px;
+}
+
+#menu_reportes {
+  margin-top: 20px;
+}
+
+#menu_reportes > li > a {
+  color: white;
+}
+
+#to_pdf{
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#to_xls{
+  margin-top: -53px;
+  margin-left: 149px;
+}
+
+.form-group {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nav-pills>li>a{
+  border-radius: 0px;
+}
+
+.nav-pills>li>a:hover{
+  background-color: #428BCA;
+}
+
+#leyenda{
+  margin-top: 15px;
+}
+
